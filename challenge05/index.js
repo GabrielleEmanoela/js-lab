@@ -9,21 +9,18 @@ var qlqer = [2, 5, 8, 6, 2, { a: 1 }, function () { }];
 Crie uma função que receba um array como parâmetro, e retorne esse array.
 */
 //
+//Função Literal.
+function txt(array) {
 
-function txt(qlqer) {
+    return array;
+}
 
-    return qlqer;
-}
-/*
-function txt([]) {
-    return [];
-}
-*/
+
 /*
 Imprima o segundo índice do array retornado pela função criada acima.
 */
 
-
+console.log(myFunction2(myarray2) [1]);
 
 /*
 Crie uma função que receba dois parâmetros: o primeiro, um array de valores; e o
@@ -91,7 +88,8 @@ function books(livro) {
 /*
 Usando a função criada acima, imprima o objeto com todos os livros.
 */
-books(livro);
+console.log(books(livro));
+
 /*
 Ainda com a função acima, imprima a quantidade de páginas de um livro qualquer,
 usando a frase:
